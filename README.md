@@ -32,7 +32,7 @@ Usage:
 - Clone the repository to your local machine or download as a ZIP file.
 
 2. Setup:
-- Open the entire project folder in Visual Studio Code.
+- Open the entire project folder in Code editor.
 - Ensure Python environment is set up correctly with necessary dependencies (os and datetime are used from standard library).
 
 3. Execution:
