@@ -2,7 +2,7 @@
 
 ## Task managing application 
 
-This Python-based task managing application allows users to manage tasks through a console interface. Users can register new accounts, add tasks, view tasks, generate reports, and display statistics. The application stores user data and task information in text files (user.txt for user credentials and tasks.txt for task details).
+This Python-based task managing application allows users to manage tasks through a console interface. Users can **register new accounts**, **add tasks**, **view tasks**, **generate reports**, and **display statistics**. The application stores user data and task information in **text files** (**user.txt** for user credentials and **tasks.txt** for task details).
 
 ### Notes:
 1. To access admin rights, use the following credentials:
@@ -11,23 +11,23 @@ This Python-based task managing application allows users to manage tasks through
 2. Ensure you open the entire folder containing this application in your code editor, otherwise, the program will look for text files in your root directory.
   
 ### Features:
-User Management:
+**User Management**:
 - Registration (r): Allows adding new users to user.txt with unique usernames and passwords.
 
-Task Management:
+**Task Management**:
 - Add Task (a): Enables users to add new tasks to tasks.txt, specifying details like username, task title, description, and due date.
 - View All Tasks (va): Displays all tasks from tasks.txt.
 - View My Tasks (vm): Shows tasks assigned to the currently logged-in user.
 
-Reports and Statistics:
-Generate Reports (gr): Creates task_overview.txt and user_overview.txt files with detailed summaries of tasks and user assignments.
-Display Statistics (ds): Available for admin users (curr_user == 'admin'), allows viewing statistics on the number of users and tasks.
+**Reports and Statistics**:
+- Generate Reports (gr): Creates task_overview.txt and user_overview.txt files with detailed summaries of tasks and user assignments.
+- Display Statistics (ds): Available for admin users (curr_user == 'admin'), allows viewing statistics on the number of users and tasks.
 
-File Handling:
-Data Storage: User credentials and task details are stored in text files (user.txt and tasks.txt respectively).
-File Generation: Automatically creates tasks.txt if it doesn't exist to store task data.
+**File Handling**:
+- Data Storage: User credentials and task details are stored in text files (user.txt and tasks.txt respectively).
+- File Generation: Automatically creates tasks.txt if it doesn't exist to store task data.
 
-Usage:
+## Usage:
 1. Installation:
 - Clone the repository to your local machine or download as a ZIP file.
 
