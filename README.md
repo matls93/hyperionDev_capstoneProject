@@ -36,14 +36,14 @@ This Python-based task managing application allows users to manage tasks through
 - Ensure Python environment is set up correctly with necessary dependencies (os and datetime are used from standard library).
 
 3. Execution:
-- Run the application by executing python main.py in the terminal within Visual Studio Code.
+- Run the application by executing python main.py in the terminal within code editor.
 
 4. Navigation:
 - Follow the menu prompts in the console to perform actions like registering users, adding tasks, viewing tasks, generating reports, displaying statistics, and exiting the application (e).
 
 ### Security Considerations:
-- This application uses a basic form of authentication and authorization for demonstration purposes only. It is not suitable for production environments.
-- User passwords are stored in plain text within user.txt, which is insecure for sensitive information.
+- This application uses a basic form of authentication and authorization for **demonstration purposes only**. It is not suitable for production environments.
+- User passwords are stored in plain text within user.txt, which is **insecure for sensitive information**.
 
 ### Disclaimer:
-This application is provided as-is and serves as an educational example of basic Python programming concepts, file handling, and console-based interaction.
+This application is **provided as-is** and serves as an educational example of basic Python programming concepts, file handling, and console-based interaction.
